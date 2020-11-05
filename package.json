@@ -1,0 +1,26 @@
+{
+  "name": "koa-api-server",
+  "version": "1.0.0",
+  "description": "A REST API server based on koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "cross-env NODE_ENV=local ./node_modules/.bin/nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tjcchen/koa-api-server.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tjcchen/koa-api-server/issues"
+  },
+  "homepage": "https://github.com/tjcchen/koa-api-server#readme",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "koa": "^2.13.0",
+    "nodemon": "^2.0.6"
+  }
+}
