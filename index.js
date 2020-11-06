@@ -1,8 +1,8 @@
-const Koa = require('koa');
-const app = new Koa();
+// es6 files support, like .js, .jsx etc.
+require('@babel/register');
 
-app.use(ctx => {
-  ctx.body = 'Welcome to Koa! Andy Chen';
-});
+// es6 polyfill support
+require('core-js/stable'); 
+require('regenerator-runtime/runtime');
 
-app.listen(3000);
+require('./app/app.js');

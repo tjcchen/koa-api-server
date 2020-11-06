@@ -12,15 +12,24 @@
     "url": "git+https://github.com/tjcchen/koa-api-server.git"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Andy Chen",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/tjcchen/koa-api-server/issues"
   },
   "homepage": "https://github.com/tjcchen/koa-api-server#readme",
   "dependencies": {
+    "@babel/runtime-corejs3": "^7.12.5",
+    "core-js": "^3.6.5",
     "cross-env": "^7.0.2",
     "koa": "^2.13.0",
-    "nodemon": "^2.0.6"
+    "koa-router": "^10.0.0",
+    "nodemon": "^2.0.6",
+    "sequelize": "^6.3.5"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.3",
+    "@babel/preset-env": "^7.12.1",
+    "@babel/register": "^7.12.1"
   }
 }
