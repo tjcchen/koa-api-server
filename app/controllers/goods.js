@@ -33,6 +33,6 @@ class GoodsController {
 }
 
 export default {
-  list: GoodsService.list
+  list: GoodsController.list
 };
 

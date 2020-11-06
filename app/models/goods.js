@@ -56,9 +56,10 @@ const Goods = sequelize.define('t_goods', {
   updateDate: {
     type: Sequelize.DATE,
     field: 'update_date'
-  }
-}, { createAt: 'create_date', updateAt: 'update_date' });
+  },
+}, { createdAt: 'createDate', updatedAt: 'updateDate' });
 
+// { createAt: 'create_date', updateAt: 'update_date' }
 // Goods.belongsTo(Category, { foreignKey: 'cid' });
 // Goods.belongsTo(User, { foreignKey: 'uid' });
 
