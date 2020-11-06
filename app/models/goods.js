@@ -1,8 +1,9 @@
 'use strict';
 
 import Sequelize from 'sequelize';
+import sequelize from '../lib/sequelize.js';
 
-const Goods = Sequelize.define('t_goods', {
+const Goods = sequelize.define('t_goods', {
   id: {
     type: Sequelize.INTEGER,
     field: 'id',
