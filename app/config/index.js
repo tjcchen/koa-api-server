@@ -3,7 +3,7 @@ exports.db = process.env.NODE_ENV === 'local' ? {
   username: 'root',
   password: '',
   host: '127.0.0.1',
-  port: 3306
+  port: 3306 // mysql default port
 } : {
   database: process.env.DB_NAME,
   username: process.env.DB_USER,
